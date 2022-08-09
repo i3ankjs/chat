@@ -2,7 +2,7 @@ package models
 
 import "gorm.io/gorm"
 
-type Books struct {
+type User struct {
 	gorm.Model
 	UserId             uint    `gorm:"primary key;autoIncrement" json:"user_id"`
 	Name               *string `json:"name"`
